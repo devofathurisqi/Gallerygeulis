@@ -1,0 +1,1194 @@
+export const sample = {
+  "store": {
+    "id": "1efbba45-f966-4a22-9122-c7f18f565735",
+    "slug": "gallerygeulis",
+    "name": "GalleryGeulis",
+    "tagline": "Geulis-Glowing-Modis",
+    "whatsapp": "6282343508606"
+  },
+  "categories": [
+    {
+      "id": "b8ca0100-0000-4000-8000-000000000004",
+      "store_id": "1efbba45-f966-4a22-9122-c7f18f565735",
+      "name": "Blouse",
+      "description": "",
+      "position": 0
+    },
+    {
+      "id": "b8ca0100-0000-4000-8000-000000000001",
+      "store_id": "1efbba45-f966-4a22-9122-c7f18f565735",
+      "name": "Pashmina",
+      "description": "",
+      "position": 1
+    },
+    {
+      "id": "b8ca0100-0000-4000-8000-000000000002",
+      "store_id": "1efbba45-f966-4a22-9122-c7f18f565735",
+      "name": "Hijab Instan",
+      "description": "",
+      "position": 2
+    },
+    {
+      "id": "b8ca0100-0000-4000-8000-000000000003",
+      "store_id": "1efbba45-f966-4a22-9122-c7f18f565735",
+      "name": "Segi Empat",
+      "description": "",
+      "position": 3
+    }
+  ],
+  "products": [
+    {
+      "id": "b8da0100-0000-4000-8000-000000000205",
+      "store_id": "1efbba45-f966-4a22-9122-c7f18f565735",
+      "source_key": "gallerygeulis:embroidered-collar-blouse",
+      "category_id": "b8ca0100-0000-4000-8000-000000000004",
+      "name": "Embroidered Collar Blouse",
+      "description": "Blouse dengan kerah lebar dan detail bordir bunga.\n\nSilakan konfirmasi harga, bahan, ukuran, pilihan warna dan ketersediaan kepada admin sebelum memesan.",
+      "images": [
+        "/assets/gallery-7.webp"
+      ],
+      "price": 0,
+      "price_confirm": true,
+      "stock": 0,
+      "stock_confirm": true,
+      "has_colors": false,
+      "variants": [],
+      "active": true,
+      "featured": true,
+      "sku": "GGL-B7",
+      "revision": 1,
+      "created_at": "2026-11-01T11:03:13.000Z"
+    },
+    {
+      "id": "b8da0100-0000-4000-8000-000000000204",
+      "store_id": "1efbba45-f966-4a22-9122-c7f18f565735",
+      "source_key": "gallerygeulis:bow-embroidered-shirt-blouse",
+      "category_id": "b8ca0100-0000-4000-8000-000000000004",
+      "name": "Bow Embroidered Shirt Blouse",
+      "description": "Blouse berkerah dengan detail bordir pita.\n\nSilakan konfirmasi harga, bahan, ukuran, pilihan warna dan ketersediaan kepada admin sebelum memesan.",
+      "images": [
+        "/assets/gallery-6.webp"
+      ],
+      "price": 0,
+      "price_confirm": true,
+      "stock": 0,
+      "stock_confirm": true,
+      "has_colors": false,
+      "variants": [],
+      "active": true,
+      "featured": true,
+      "sku": "GGL-B6",
+      "revision": 1,
+      "created_at": "2026-11-01T11:03:14.000Z"
+    },
+    {
+      "id": "b8da0100-0000-4000-8000-000000000203",
+      "store_id": "1efbba45-f966-4a22-9122-c7f18f565735",
+      "source_key": "gallerygeulis:embroidered-denim-blouse",
+      "category_id": "b8ca0100-0000-4000-8000-000000000004",
+      "name": "Embroidered Denim Blouse",
+      "description": "Blouse denim dengan detail bordir bunga.\n\nSilakan konfirmasi harga, bahan, ukuran, pilihan warna dan ketersediaan kepada admin sebelum memesan.",
+      "images": [
+        "/assets/gallery-4.webp",
+        "/assets/gallery-5.webp"
+      ],
+      "price": 0,
+      "price_confirm": true,
+      "stock": 0,
+      "stock_confirm": true,
+      "has_colors": false,
+      "variants": [],
+      "active": true,
+      "featured": false,
+      "sku": "GGL-B4",
+      "revision": 1,
+      "created_at": "2026-11-01T11:03:16.000Z"
+    },
+    {
+      "id": "b8da0100-0000-4000-8000-000000000202",
+      "store_id": "1efbba45-f966-4a22-9122-c7f18f565735",
+      "source_key": "gallerygeulis:denim-blouse",
+      "category_id": "b8ca0100-0000-4000-8000-000000000004",
+      "name": "Denim Blouse",
+      "description": "Blouse denim berlengan panjang dengan kancing depan.\n\nSilakan konfirmasi harga, bahan, ukuran, pilihan warna dan ketersediaan kepada admin sebelum memesan.",
+      "images": [
+        "/assets/gallery-3.webp"
+      ],
+      "price": 0,
+      "price_confirm": true,
+      "stock": 0,
+      "stock_confirm": true,
+      "has_colors": false,
+      "variants": [],
+      "active": true,
+      "featured": false,
+      "sku": "GGL-B3",
+      "revision": 1,
+      "created_at": "2026-11-01T11:03:17.000Z"
+    },
+    {
+      "id": "b8da0100-0000-4000-8000-000000000201",
+      "store_id": "1efbba45-f966-4a22-9122-c7f18f565735",
+      "source_key": "gallerygeulis:chambray-tie-waist-shirt-blouse",
+      "category_id": "b8ca0100-0000-4000-8000-000000000004",
+      "name": "Chambray Tie-Waist Shirt Blouse",
+      "description": "Blouse chambray berkerah dengan detail tali pinggang.\n\nSilakan konfirmasi harga, bahan, ukuran, pilihan warna dan ketersediaan kepada admin sebelum memesan.",
+      "images": [
+        "/assets/gallery-2.webp"
+      ],
+      "price": 0,
+      "price_confirm": true,
+      "stock": 0,
+      "stock_confirm": true,
+      "has_colors": false,
+      "variants": [],
+      "active": true,
+      "featured": false,
+      "sku": "GGL-B2",
+      "revision": 1,
+      "created_at": "2026-11-01T11:03:18.000Z"
+    },
+    {
+      "id": "b8da0100-0000-4000-8000-000000000200",
+      "store_id": "1efbba45-f966-4a22-9122-c7f18f565735",
+      "source_key": "gallerygeulis:denim-tiered-shirt-blouse",
+      "category_id": "b8ca0100-0000-4000-8000-000000000004",
+      "name": "Denim Tiered Shirt Blouse",
+      "description": "Blouse denim dengan potongan bertingkat dan kerah kemeja.\n\nSilakan konfirmasi harga, bahan, ukuran, pilihan warna dan ketersediaan kepada admin sebelum memesan.",
+      "images": [
+        "/assets/gallery-1.webp"
+      ],
+      "price": 0,
+      "price_confirm": true,
+      "stock": 0,
+      "stock_confirm": true,
+      "has_colors": false,
+      "variants": [],
+      "active": true,
+      "featured": false,
+      "sku": "GGL-B1",
+      "revision": 1,
+      "created_at": "2026-11-01T11:03:19.000Z"
+    },
+    {
+      "id": "b8da0100-0000-4000-8000-000000000001",
+      "supplier": "vuyama",
+      "source_key": "vuyama:bamboo-spandex",
+      "name": "Pashmina Bamboo Spandex",
+      "description": "Pashmina dalam warna lembut untuk berbagai padanan busana. Pilihan berbahan Bamboo Spandex.\n\nBahan: Bamboo Spandex.",
+      "category_name": "Pashmina",
+      "retail_price": 75000,
+      "images": [
+        "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/bamboo.webp"
+      ],
+      "has_colors": true,
+      "variants": [
+        {
+          "id": "creamy-latte",
+          "name": "Creamy Latte",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-2b1e072ce12cfd.webp",
+          "hex": "#cfc1ba"
+        },
+        {
+          "id": "blush",
+          "name": "Blush",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-db1054e62c9b87.webp",
+          "hex": "#d6bcb5"
+        },
+        {
+          "id": "maroon",
+          "name": "Maroon",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-52468c5c6a990a.webp",
+          "hex": "#340412"
+        },
+        {
+          "id": "oat",
+          "name": "Oat",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-4e238e32a47285.webp",
+          "hex": "#b8a598"
+        },
+        {
+          "id": "vanilla",
+          "name": "Vanilla",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-c40ccf5e2bbbf7.webp",
+          "hex": "#cdbdae"
+        },
+        {
+          "id": "butter-cream",
+          "name": "Butter Cream",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-de93b3c0416d19.webp",
+          "hex": "#d1c4a4"
+        },
+        {
+          "id": "storm",
+          "name": "Storm",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-587606931bfdd7.webp",
+          "hex": "#7c7273"
+        },
+        {
+          "id": "smoke",
+          "name": "Smoke",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-8deefe9931576f.webp",
+          "hex": "#897e7b"
+        },
+        {
+          "id": "milo",
+          "name": "Milo",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-c903469b4c212c.webp",
+          "hex": "#a28167"
+        },
+        {
+          "id": "grey",
+          "name": "Grey",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-be135bf4c40959.webp",
+          "hex": "#b1aba2"
+        },
+        {
+          "id": "frappe",
+          "name": "Frappe",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-58067099076e18.webp",
+          "hex": "#a3856b"
+        },
+        {
+          "id": "navy",
+          "name": "Navy",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-a3791fb00c051c.webp",
+          "hex": "#070c34"
+        },
+        {
+          "id": "dark-milo",
+          "name": "Dark Milo",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-bb0d88a7ee344e.webp",
+          "hex": "#927467"
+        },
+        {
+          "id": "black",
+          "name": "Black",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-bd1d99dba10fa1.webp",
+          "hex": "#07080d"
+        },
+        {
+          "id": "deep-beige",
+          "name": "Deep Beige",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-1d2a5efd2e6cc7.webp",
+          "hex": "#b9ab8d"
+        },
+        {
+          "id": "tea-rose",
+          "name": "Tea Rose",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-40badc0d5a1ee9.webp",
+          "hex": "#b7a290"
+        },
+        {
+          "id": "earth",
+          "name": "Earth",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-b7b7bec96554c2.webp",
+          "hex": "#a8978c"
+        },
+        {
+          "id": "creamy-rose",
+          "name": "Creamy Rose",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-2f9fb7e09e80cb.webp",
+          "hex": "#b39887"
+        },
+        {
+          "id": "ash",
+          "name": "Ash",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-27f5e28b58f996.webp",
+          "hex": "#3f343f"
+        },
+        {
+          "id": "mahogany",
+          "name": "Mahogany",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-d48c1f62660c40.webp",
+          "hex": "#1c070c"
+        }
+      ],
+      "active": true,
+      "store_id": "1efbba45-f966-4a22-9122-c7f18f565735",
+      "library_product_id": "10638abc-66fa-4f7a-8676-5936e8bfc2ae",
+      "category_id": "b8ca0100-0000-4000-8000-000000000001",
+      "price": 75000,
+      "price_confirm": false,
+      "stock": 0,
+      "stock_confirm": true,
+      "featured": true,
+      "sku": "GGL-001",
+      "revision": 1,
+      "created_at": "2026-11-01T11:00:00.000Z"
+    },
+    {
+      "id": "b8da0100-0000-4000-8000-000000000004",
+      "supplier": "vuyama",
+      "source_key": "vuyama:modal-viscose",
+      "name": "Pashmina Modal Viscose",
+      "description": "Siluet pashmina klasik berbahan Modal Viscose. Jelajahi seluruh pilihan warna untuk menemukan padanan yang terasa seperti kamu.\n\nBahan: Modal Viscose.",
+      "category_name": "Pashmina",
+      "retail_price": 59000,
+      "images": [
+        "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/modal.webp",
+        "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/modal-alt.webp"
+      ],
+      "has_colors": true,
+      "variants": [
+        {
+          "id": "coffee-latte",
+          "name": "Coffee Latte",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-f2c13163456b27.webp",
+          "hex": "#8f6d61"
+        },
+        {
+          "id": "mahogany",
+          "name": "Mahogany",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-185c92f1bd0101.webp",
+          "hex": "#4d2a27"
+        },
+        {
+          "id": "beige",
+          "name": "Beige",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-34276d41624829.webp",
+          "hex": "#a47861"
+        },
+        {
+          "id": "dusty",
+          "name": "Dusty",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-ffa5358156dca0.webp",
+          "hex": "#8a585c"
+        },
+        {
+          "id": "iron",
+          "name": "Iron",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-5ad26164004fe5.webp",
+          "hex": "#3b2f2e"
+        },
+        {
+          "id": "white",
+          "name": "White",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-8f47256b1b15fc.webp",
+          "hex": "#abafae"
+        },
+        {
+          "id": "jeans",
+          "name": "Jeans",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-1b293ee184e56a.webp",
+          "hex": "#4f4b5e"
+        },
+        {
+          "id": "almond-beige",
+          "name": "Almond Beige",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-b750adc1b4433c.webp",
+          "hex": "#8b7d63"
+        },
+        {
+          "id": "soft-lilac",
+          "name": "Soft Lilac",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-dffe7085a4c1d1.webp",
+          "hex": "#a18793"
+        },
+        {
+          "id": "machiato",
+          "name": "Machiato",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-df29c4d19c5a29.webp",
+          "hex": "#8f7557"
+        },
+        {
+          "id": "powder-pink",
+          "name": "Powder Pink",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-207015ac47d2cd.webp",
+          "hex": "#996b68"
+        },
+        {
+          "id": "sand",
+          "name": "Sand",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-9b6fcd323eae4e.webp",
+          "hex": "#997662"
+        },
+        {
+          "id": "dark-oat",
+          "name": "Dark Oat",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-07766b5bd83c11.webp",
+          "hex": "#896d67"
+        },
+        {
+          "id": "fossil",
+          "name": "Fossil",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-93f4aa28f4a405.webp",
+          "hex": "#412a26"
+        },
+        {
+          "id": "butter-yellow",
+          "name": "Butter Yellow",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-491bf49d5f4642.webp",
+          "hex": "#bbae87"
+        },
+        {
+          "id": "royal-pink",
+          "name": "Royal Pink",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-96ac65d518f1c2.webp",
+          "hex": "#aa7981"
+        },
+        {
+          "id": "deep-almond",
+          "name": "Deep Almond",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-244a9905df5eea.webp",
+          "hex": "#8a6856"
+        },
+        {
+          "id": "deep-charcoal",
+          "name": "Deep Charcoal",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-39e7a31da2cc7c.webp",
+          "hex": "#958177"
+        },
+        {
+          "id": "rose-quartz",
+          "name": "Rose Quartz",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-6bc01fd42d189a.webp",
+          "hex": "#b07d7c"
+        },
+        {
+          "id": "coffee",
+          "name": "Coffee",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-3b601a8caf939f.webp",
+          "hex": "#542527"
+        },
+        {
+          "id": "wine",
+          "name": "Wine",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-381d1c19bce3f3.webp",
+          "hex": "#3b0929"
+        },
+        {
+          "id": "flint",
+          "name": "Flint",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-be35a1efa3165d.webp",
+          "hex": "#896070"
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-ab2e7464d500f5.webp",
+          "hex": "#a3898a"
+        },
+        {
+          "id": "dark-latte",
+          "name": "Dark Latte",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-2a10c6caea38cd.webp",
+          "hex": "#866359"
+        },
+        {
+          "id": "black",
+          "name": "Black",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-2d2ee12c616de2.webp",
+          "hex": "#0e0b15"
+        },
+        {
+          "id": "maroon",
+          "name": "Maroon",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-278bbcbdea7bae.webp",
+          "hex": "#5f0e2e"
+        },
+        {
+          "id": "charcoal",
+          "name": "Charcoal",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-4debced0baf418.webp",
+          "hex": "#a08b81"
+        },
+        {
+          "id": "grey",
+          "name": "Grey",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-e52eda9b978113.webp",
+          "hex": "#9a888b"
+        },
+        {
+          "id": "navy",
+          "name": "Navy",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-7b66697c231b0d.webp",
+          "hex": "#1a1436"
+        },
+        {
+          "id": "storm",
+          "name": "Storm",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-39d8d6b99abba6.webp",
+          "hex": "#846f6e"
+        },
+        {
+          "id": "choco",
+          "name": "Choco",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-155a28ee2856eb.webp",
+          "hex": "#7e5f5a"
+        },
+        {
+          "id": "dark-beige",
+          "name": "Dark Beige",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-73d8c3f51e86c1.webp",
+          "hex": "#a8785a"
+        }
+      ],
+      "active": true,
+      "store_id": "1efbba45-f966-4a22-9122-c7f18f565735",
+      "library_product_id": "5c044737-8c36-4768-80d1-d8f0af153af3",
+      "category_id": "b8ca0100-0000-4000-8000-000000000001",
+      "price": 59000,
+      "price_confirm": false,
+      "stock": 0,
+      "stock_confirm": true,
+      "featured": true,
+      "sku": "GGL-004",
+      "revision": 1,
+      "created_at": "2026-11-01T10:59:57.000Z"
+    },
+    {
+      "id": "b8da0100-0000-4000-8000-000000000002",
+      "supplier": "vuyama",
+      "source_key": "vuyama:zoya-instan",
+      "name": "Zoya Instan",
+      "description": "Pashmina instan dengan ciput, untuk bentuk yang praktis dan tampilan yang rapi.\n\nBahan: Micro Modal Tencel.",
+      "category_name": "Hijab Instan",
+      "retail_price": 85000,
+      "images": [
+        "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/zoya.webp"
+      ],
+      "has_colors": true,
+      "variants": [
+        {
+          "id": "wine",
+          "name": "Wine",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-d76e11f7f7fcc2.webp",
+          "hex": "#610f30"
+        },
+        {
+          "id": "smoke",
+          "name": "Smoke",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-b6d09f44cac4b4.webp",
+          "hex": "#a99796"
+        },
+        {
+          "id": "dark-milo",
+          "name": "Dark Milo",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-f365367d08d794.webp",
+          "hex": "#8d6f62"
+        },
+        {
+          "id": "earth",
+          "name": "Earth",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-9599f3a03213fe.webp",
+          "hex": "#aa9997"
+        },
+        {
+          "id": "frappe",
+          "name": "Frappe",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-5982f529d95734.webp",
+          "hex": "#85695a"
+        },
+        {
+          "id": "deep-almond",
+          "name": "Deep Almond",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-08292cc829fb91.webp",
+          "hex": "#93765f"
+        },
+        {
+          "id": "fossil",
+          "name": "Fossil",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-87ceca59578ef1.webp",
+          "hex": "#766462"
+        },
+        {
+          "id": "black",
+          "name": "Black",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-94520ea725c858.webp",
+          "hex": "#1f1f1f"
+        },
+        {
+          "id": "dark-latte",
+          "name": "Dark Latte",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-4d0109b649b2c9.webp",
+          "hex": "#af8a78"
+        },
+        {
+          "id": "brownie",
+          "name": "Brownie",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-f57851bb2139f8.webp",
+          "hex": "#4e2e1e"
+        },
+        {
+          "id": "mahogany",
+          "name": "Mahogany",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-26a46f05a93695.webp",
+          "hex": "#210f10"
+        },
+        {
+          "id": "deep-beige",
+          "name": "Deep Beige",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-87df3d827de586.webp",
+          "hex": "#a9978c"
+        },
+        {
+          "id": "soft-lilac",
+          "name": "Soft Lilac",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-22963beb14efae.webp",
+          "hex": "#bc9ca7"
+        }
+      ],
+      "active": true,
+      "store_id": "1efbba45-f966-4a22-9122-c7f18f565735",
+      "library_product_id": "111045fc-6e6a-4a19-8182-91037e9a7137",
+      "category_id": "b8ca0100-0000-4000-8000-000000000002",
+      "price": 85000,
+      "price_confirm": false,
+      "stock": 0,
+      "stock_confirm": true,
+      "featured": false,
+      "sku": "GGL-002",
+      "revision": 1,
+      "created_at": "2026-11-01T10:59:59.000Z"
+    },
+    {
+      "id": "b8da0100-0000-4000-8000-000000000003",
+      "supplier": "vuyama",
+      "source_key": "vuyama:paris-legend",
+      "name": "Paris Jadul",
+      "description": "Koleksi Paris Jadul dalam bentuk segi empat klasik. Dari warna netral hingga nuansa cerah, pilih warna favoritmu melalui pilihan di bawah.\n\nBahan: Paris Basic Ori.\n\nUkuran: 110 × 110 cm.",
+      "category_name": "Segi Empat",
+      "retail_price": 29000,
+      "images": [
+        "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/paris.webp",
+        "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/paris-alt.webp"
+      ],
+      "has_colors": true,
+      "variants": [
+        {
+          "id": "mustard",
+          "name": "Mustard",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-2b2bdfa335abe0.webp",
+          "hex": "#c29551"
+        },
+        {
+          "id": "dark-latte",
+          "name": "Dark Latte",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-4a7448bc0245e8.webp",
+          "hex": "#81665a"
+        },
+        {
+          "id": "butter-cream",
+          "name": "Butter Cream",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-9747ddcfeda6e4.webp",
+          "hex": "#a99e77"
+        },
+        {
+          "id": "choco",
+          "name": "Choco",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-3341f12197cd15.webp",
+          "hex": "#6e4e57"
+        },
+        {
+          "id": "beet-red",
+          "name": "Beet Red",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-eb1d5e2be8074f.webp",
+          "hex": "#bbb19e"
+        },
+        {
+          "id": "dusty",
+          "name": "Dusty",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-e5fee6fce1bfc8.webp",
+          "hex": "#c09597"
+        },
+        {
+          "id": "baby-pink",
+          "name": "Baby Pink",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-355e1c221875b6.webp",
+          "hex": "#ba8d84"
+        },
+        {
+          "id": "dusky-rose",
+          "name": "Dusky Rose",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-ba2f771d8af370.webp",
+          "hex": "#d0b9ab"
+        },
+        {
+          "id": "vanilla",
+          "name": "Vanilla",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-91f0b57e2ff86f.webp",
+          "hex": "#d7cab2"
+        },
+        {
+          "id": "abalone",
+          "name": "Abalone",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-911251a4ea3932.webp",
+          "hex": "#cfbeb3"
+        },
+        {
+          "id": "latte",
+          "name": "Latte",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-779d987300c968.webp",
+          "hex": "#cdafa0"
+        },
+        {
+          "id": "electric-blue",
+          "name": "Electric Blue",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-95bb6ce56180c1.webp",
+          "hex": "#252796"
+        },
+        {
+          "id": "maroon",
+          "name": "Maroon",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-d3ea1e17f0bcf6.webp",
+          "hex": "#882135"
+        },
+        {
+          "id": "milk-tea",
+          "name": "Milk Tea",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-291574e0e51dce.webp",
+          "hex": "#c1965a"
+        },
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-d48e9ea9c94b79.webp",
+          "hex": "#4c435a"
+        },
+        {
+          "id": "flint",
+          "name": "Flint",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-e1a22586501ed5.webp",
+          "hex": "#b69dbd"
+        },
+        {
+          "id": "olive",
+          "name": "Olive",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-17e64695b9295a.webp",
+          "hex": "#7a6045"
+        },
+        {
+          "id": "red",
+          "name": "Red",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-089a764acc2e36.webp",
+          "hex": "#d3213e"
+        },
+        {
+          "id": "sage",
+          "name": "Sage",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-dd3d566c11a6b7.webp",
+          "hex": "#837e68"
+        },
+        {
+          "id": "sand",
+          "name": "Sand",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-f55d57c81e2c09.webp",
+          "hex": "#bba79b"
+        },
+        {
+          "id": "pink-powder",
+          "name": "Pink Powder",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-edd030bb1665d9.webp",
+          "hex": "#89716b"
+        },
+        {
+          "id": "tan",
+          "name": "Tan",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-d2971e7010e0da.webp",
+          "hex": "#a99286"
+        },
+        {
+          "id": "tea-flower",
+          "name": "Tea Flower",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-f4607590263775.webp",
+          "hex": "#bcad92"
+        },
+        {
+          "id": "soft-pink",
+          "name": "Soft Pink",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-10d474dc5cd531.webp",
+          "hex": "#b5a08d"
+        },
+        {
+          "id": "white",
+          "name": "White",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-64cece2971208a.webp",
+          "hex": "#b2aded"
+        },
+        {
+          "id": "waffle",
+          "name": "Waffle",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-7ecada2166b9a8.webp",
+          "hex": "#725c4c"
+        },
+        {
+          "id": "almond-beige",
+          "name": "Almond Beige",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-9571d0370acf5c.webp",
+          "hex": "#846d60"
+        },
+        {
+          "id": "alice-blue",
+          "name": "Alice Blue",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-24135175350f93.webp",
+          "hex": "#6a799d"
+        },
+        {
+          "id": "british-army",
+          "name": "British Army",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-472de078cddb11.webp",
+          "hex": "#2c4950"
+        },
+        {
+          "id": "beige",
+          "name": "Beige",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-8577692cc050d7.webp",
+          "hex": "#a18c73"
+        },
+        {
+          "id": "brownie",
+          "name": "Brownie",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-171b60cac139ea.webp",
+          "hex": "#5e3d3b"
+        },
+        {
+          "id": "butter-yellow",
+          "name": "Butter Yellow",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-e92e4a679f1bf1.webp",
+          "hex": "#c5a779"
+        },
+        {
+          "id": "coffee",
+          "name": "Coffee",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-a233bc78a2fc5f.webp",
+          "hex": "#3b2426"
+        },
+        {
+          "id": "charcoal",
+          "name": "Charcoal",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-864934847ad1ec.webp",
+          "hex": "#77665d"
+        },
+        {
+          "id": "ash",
+          "name": "Ash",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-703655fb19ef3b.webp",
+          "hex": "#887c71"
+        },
+        {
+          "id": "lilac",
+          "name": "Lilac",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-7aec166d04cdd0.webp",
+          "hex": "#a095bc"
+        },
+        {
+          "id": "black",
+          "name": "Black",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-4a2104e8921686.webp",
+          "hex": "#100d1a"
+        },
+        {
+          "id": "dark-navy",
+          "name": "Dark Navy",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-b3660826ac6651.webp",
+          "hex": "#292341"
+        },
+        {
+          "id": "deep-denim",
+          "name": "Deep Denim",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-884934315323e6.webp",
+          "hex": "#636383"
+        },
+        {
+          "id": "dim-grey",
+          "name": "Dim Grey",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-adae8d51712644.webp",
+          "hex": "#433b30"
+        },
+        {
+          "id": "heather",
+          "name": "Heather",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-e8b4b8d21be825.webp",
+          "hex": "#576698"
+        },
+        {
+          "id": "fresh-emerald",
+          "name": "Fresh Emerald",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-110d7b9d7626fa.webp",
+          "hex": "#0b6965"
+        },
+        {
+          "id": "ivory",
+          "name": "Ivory",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-4a9fa6a354fc4b.webp",
+          "hex": "#927d59"
+        },
+        {
+          "id": "jeans",
+          "name": "Jeans",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-49cd7ae36a7c29.webp",
+          "hex": "#475483"
+        },
+        {
+          "id": "kale",
+          "name": "Kale",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-d514e79b926b37.webp",
+          "hex": "#5b4d45"
+        },
+        {
+          "id": "lilac-grey",
+          "name": "Lilac Grey",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-0d114b23fa9837.webp",
+          "hex": "#78626d"
+        },
+        {
+          "id": "mint",
+          "name": "Mint",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-a6744904dbfb9e.webp",
+          "hex": "#929792"
+        },
+        {
+          "id": "dark-coffee",
+          "name": "Dark Coffee",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-e20003699c3591.webp",
+          "hex": "#2a1c1c"
+        },
+        {
+          "id": "navy",
+          "name": "Navy",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-022bef774a1482.webp",
+          "hex": "#17194d"
+        },
+        {
+          "id": "nude",
+          "name": "Nude",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-41c0e0356dead8.webp",
+          "hex": "#876760"
+        },
+        {
+          "id": "pine",
+          "name": "Pine",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-8ab726b90f9fca.webp",
+          "hex": "#06697f"
+        },
+        {
+          "id": "misty-grey",
+          "name": "Misty Grey",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-af75d3f5433ac5.webp",
+          "hex": "#575350"
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-e4f0f93097f7bc.webp",
+          "hex": "#aa9594"
+        },
+        {
+          "id": "storm",
+          "name": "Storm",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-f94b954b20bec3.webp",
+          "hex": "#6b5e5f"
+        },
+        {
+          "id": "red-cherry",
+          "name": "Red Cherry",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-15e52ea52239e7.webp",
+          "hex": "#5e1e36"
+        },
+        {
+          "id": "wine",
+          "name": "Wine",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-b10667d6dfbeed.webp",
+          "hex": "#741d45"
+        },
+        {
+          "id": "taro",
+          "name": "Taro",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-2e64f2cbba8578.webp",
+          "hex": "#8a6b8c"
+        },
+        {
+          "id": "burgundy",
+          "name": "Burgundy",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-38f9153bf63a64.webp",
+          "hex": "#70253d"
+        },
+        {
+          "id": "blush",
+          "name": "Blush",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-38f9153bf63a64.webp",
+          "hex": "#d7b7bb"
+        },
+        {
+          "id": "almond",
+          "name": "Almond",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-38f9153bf63a64.webp",
+          "hex": "#bca68f"
+        },
+        {
+          "id": "pink-salt",
+          "name": "Pink Salt",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-38f9153bf63a64.webp",
+          "hex": "#d0a5b1"
+        },
+        {
+          "id": "espreso",
+          "name": "Espreso",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-38f9153bf63a64.webp",
+          "hex": "#7e6d65"
+        },
+        {
+          "id": "khaki",
+          "name": "Khaki",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-38f9153bf63a64.webp",
+          "hex": "#b5a4ab"
+        },
+        {
+          "id": "biscuit",
+          "name": "Biscuit",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-38f9153bf63a64.webp",
+          "hex": "#c8c3ba"
+        },
+        {
+          "id": "fossil",
+          "name": "Fossil",
+          "stock": 0,
+          "image": "https://qholqpuyumuvsiudhrjk.supabase.co/storage/v1/object/public/vuyama-library/v1/shade-99b73ac4232386.webp",
+          "hex": "#a79389"
+        }
+      ],
+      "active": true,
+      "store_id": "1efbba45-f966-4a22-9122-c7f18f565735",
+      "library_product_id": "7a42e3bd-50d9-4b20-8b17-c1f5f08fae7b",
+      "category_id": "b8ca0100-0000-4000-8000-000000000003",
+      "price": 29000,
+      "price_confirm": false,
+      "stock": 0,
+      "stock_confirm": true,
+      "featured": false,
+      "sku": "GGL-003",
+      "revision": 1,
+      "created_at": "2026-11-01T10:59:58.000Z"
+    }
+  ]
+};

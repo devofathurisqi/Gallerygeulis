@@ -1,0 +1,44 @@
+{
+  "/assets/gallery-1.webp": {
+    "src": "/assets/gallery-1.webp",
+    "srcset": "/assets/gallery-1-360.webp 360w, /assets/gallery-1.webp 902w",
+    "width": 902,
+    "height": 1600
+  },
+  "/assets/gallery-2.webp": {
+    "src": "/assets/gallery-2.webp",
+    "srcset": "/assets/gallery-2-360.webp 360w, /assets/gallery-2.webp 902w",
+    "width": 902,
+    "height": 1600
+  },
+  "/assets/gallery-3.webp": {
+    "src": "/assets/gallery-3.webp",
+    "srcset": "/assets/gallery-3-360.webp 360w, /assets/gallery-3.webp 914w",
+    "width": 914,
+    "height": 1600
+  },
+  "/assets/gallery-4.webp": {
+    "src": "/assets/gallery-4.webp",
+    "srcset": "/assets/gallery-4-360.webp 360w, /assets/gallery-4.webp 918w",
+    "width": 918,
+    "height": 1600
+  },
+  "/assets/gallery-5.webp": {
+    "src": "/assets/gallery-5.webp",
+    "srcset": "/assets/gallery-5-360.webp 360w, /assets/gallery-5.webp 914w",
+    "width": 914,
+    "height": 1600
+  },
+  "/assets/gallery-6.webp": {
+    "src": "/assets/gallery-6.webp",
+    "srcset": "/assets/gallery-6-360.webp 360w, /assets/gallery-6.webp 902w",
+    "width": 902,
+    "height": 1600
+  },
+  "/assets/gallery-7.webp": {
+    "src": "/assets/gallery-7.webp",
+    "srcset": "/assets/gallery-7-360.webp 360w, /assets/gallery-7.webp 904w",
+    "width": 904,
+    "height": 1600
+  }
+}

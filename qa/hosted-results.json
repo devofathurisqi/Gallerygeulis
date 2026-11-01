@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "slug": "gallerygeulis",
+  "login": true,
+  "categoryCrud": true,
+  "productCrud": true,
+  "draftPrivate": true,
+  "crossTenantReadDenied": true,
+  "crossTenantWriteDenied": true,
+  "crossTenantDeleteDenied": true,
+  "revisionConflict": true,
+  "usedCategoryProtected": true,
+  "photoUpload": true,
+  "crossTenantUploadDenied": true,
+  "audit": true,
+  "temporaryRecordsCleaned": true
+}

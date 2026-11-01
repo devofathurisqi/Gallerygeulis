@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "gallerygeulis",
+    "requested": 360,
+    "broken": 0,
+    "client": 345,
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "slug": "gallerygeulis",
+    "requested": 768,
+    "broken": 0,
+    "client": 753,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "slug": "gallerygeulis",
+    "requested": 1366,
+    "broken": 0,
+    "client": 1351,
+    "scroll": 1351,
+    "width": 1366
+  }
+]

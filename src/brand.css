@@ -1,0 +1,116 @@
+/* Two identities, one carefully preserved shopping flow. */
+:root{--serif:GalleryGeulis Serif,Georgia,serif}
+.brand-mark{display:flex;align-items:center;gap:13px;flex-shrink:0}
+.gallery-mark>img{width:64px;height:64px;object-fit:contain;border-radius:50%;background:white}
+.gallery-mark strong{font-family:var(--serif);font-size:25px;letter-spacing:-1.1px;font-weight:400}
+.gallery-mark strong>span{font-style:italic;color:var(--pink)}
+.gallery-mark small{display:block;font-size:7px;font-weight:500;letter-spacing:2.1px;margin-top:5px}
+.brand-hero{position:relative;isolation:isolate;overflow:hidden}
+.gallery-hero{min-height:695px;display:grid;grid-template-columns:1.05fr 1fr;background:#f9dce5;padding:56px 6% 30px;gap:30px}
+.gallery-hero-copy{padding:30px 0 35px;position:relative;z-index:2}
+.hero-label{display:inline-flex;align-items:center;gap:9px;font-size:9px;letter-spacing:2px;font-weight:600;color:#99506a}
+.gallery-hero h1{font-size:clamp(56px,5.2vw,82px);letter-spacing:-4px;line-height:1.08;margin:25px 0 25px;max-width:650px;font-weight:400}
+.gallery-hero h1 em{color:#b4486b;font-weight:400;position:relative}
+.headline-flower{font-size:.55em;color:#d67e99;display:inline-block;transform:translate(8px,-8px)}
+.gallery-hero-copy>p{font-size:13px;line-height:1.95;color:#795463;max-width:385px;margin-bottom:30px}
+.hero-ctas{display:flex;gap:25px;align-items:center;flex-wrap:wrap}
+.hero-ctas .btn{border-radius:50px;padding-inline:25px;background:#784256;border-color:#784256}
+.hero-text-cta{font-size:11px;display:flex;gap:14px;align-items:center;border-bottom:1px solid #c38a9c;padding:10px 0}
+.gallery-signoff{display:flex;align-items:center;gap:12px;margin-top:45px;font-size:10px;letter-spacing:1px;color:#965b71}
+.gallery-signoff small{display:block;font-size:8px;letter-spacing:.2px;margin-top:5px;color:#886572}
+.little-bloom{font-size:34px;color:#ce859d;line-height:1}
+.gallery-hero-visual{position:relative;min-height:590px;padding:15px 0 0 5px}
+.gallery-main-photo{position:absolute;top:35px;left:0;width:69%;height:485px;transform:rotate(-5deg);border:9px solid #fff8f7;border-radius:140px 140px 4px 4px;box-shadow:0 12px 38px #814c6220;overflow:hidden}
+.gallery-main-photo>img{width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+.gallery-detail-photo{position:absolute;top:205px;right:0;width:38%;transform:rotate(7deg);border:7px solid #fff8f7;box-shadow:0 8px 24px #814c6220;background:#fff8f7}
+.gallery-detail-photo>img{width:100%;height:260px;object-fit:cover}
+.gallery-detail-photo>span{display:block;font-family:var(--serif);font-size:20px;line-height:1.1;padding:11px 10px;color:#84536a}
+.gallery-detail-photo em{font-size:23px}
+.curved-note{position:absolute;left:15%;top:9px;font-size:9px;letter-spacing:3px;transform:rotate(-5deg);color:#975970}
+.gallery-roundel{position:absolute;right:4%;top:40px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;width:102px;height:102px;border:1px solid #b67a91;border-radius:50%;font-size:8px;letter-spacing:1.7px;text-align:center;line-height:1.6;color:#92536e;background:#f9dce5;transform:rotate(12deg)}
+.photo-index{position:absolute;left:0;bottom:13px;font-size:8px;letter-spacing:2px;color:#975970}
+.petal{position:absolute;pointer-events:none;color:#eebdce;z-index:-1;opacity:.55}
+.petal svg{width:100%;height:100%;stroke-width:.4}
+.petal-one{width:680px;height:680px;left:-310px;bottom:-260px;transform:rotate(20deg)}
+.petal-two{width:430px;height:430px;right:14%;top:-260px;transform:rotate(-20deg)}
+.brand-ribbon{background:#edc0cf;color:#724252;padding-block:17px;border-block:1px solid #e1abba;letter-spacing:2px;font-size:9px}
+.brand-story{display:grid;grid-template-columns:1fr 1fr;gap:11%;align-items:center;padding-block:100px}
+.brand-story-photo{position:relative;background:var(--pale);max-width:480px;margin-left:20px}
+.brand-story-photo:before{content:'';position:absolute;inset:18px -18px -18px 18px;border:1px solid var(--line);z-index:-1}
+.brand-story-photo>img{width:100%;height:530px;object-fit:cover}
+.story-photo-note{position:absolute;bottom:25px;left:15px;right:15px;color:#fff;font-family:var(--serif);font-size:25px;font-style:italic;text-align:center;text-shadow:0 2px 8px #382417}
+.brand-story-copy h2{font-size:clamp(38px,4vw,58px);line-height:1.13;letter-spacing:-2px;margin:24px 0}
+.brand-story-copy h2 em{color:var(--pink)}
+.brand-story-copy>p{font-size:12px;line-height:2;color:var(--muted);max-width:390px}
+.brand-story-copy .text-link{margin-top:12px}
+.brand-signature{display:block;font-family:var(--serif);font-style:italic;color:var(--pink);font-size:23px;margin-top:30px}
+.product-visual{border-radius:12px 12px 2px 2px;background:var(--pale)}
+.featured-section{background:#fff4f7}
+.shop-header{background:#fffdfbf5;height:96px}
+.topbar{background:#9f4b69}
+.product-badge{letter-spacing:1px}
+.category-section{padding-top:65px;padding-bottom:65px}
+.category-rail{gap:24px}
+.category-rail>button{background:transparent}
+.contact-band{background:#af5776}
+.btn-dark:hover{background:var(--pink-dark)!important;border-color:var(--pink-dark)!important}
+.studio-brand>div{font-size:24px}
+.image-missing:after{content:'Foto belum tersedia';position:absolute;inset:0;display:grid;place-items:center;background:var(--pale);color:var(--muted);font-size:12px}
+/* LARAYA's warm paper, curved fabric lines, and quiet bronze accents. */
+html[data-brand=laraya]{--pink:#8a5944;--pink-dark:#704330;--berry:#49362d;--rose:#e6c7c1;--pale:#f5eae4;--muted:#817067;--line:#e4d6cc;--serif:LARAYA Serif,Georgia,serif;background:#fdf7f4;color:#49362d}
+[data-brand=laraya] .shop-header{background:#fdf7f4f5;border-bottom-color:#e6d8cd;height:110px}
+.laraya-mark{width:172px;height:96px;justify-content:center;overflow:hidden}
+.laraya-mark>img{width:116px;height:96px;object-fit:contain;mix-blend-mode:multiply}
+[data-brand=laraya] .topbar{background:#77503e;font-size:8px;letter-spacing:.5px}
+.laraya-hero{background:#f3e5dc;display:grid;grid-template-columns:1fr 1fr;min-height:735px;gap:3%;padding:35px 6% 58px}
+.laraya-hero:before{content:'';position:absolute;width:800px;height:800px;border:1px solid #d9bdab80;border-radius:50%;left:-320px;top:-350px;z-index:-1}
+.laraya-hero:after{content:'';position:absolute;width:900px;height:900px;border:1px solid #dbc5b880;border-radius:50%;left:-340px;top:-390px;z-index:-1}
+.laraya-hero-copy{padding:75px 0 30px;z-index:2}
+.tiny-star{font-size:21px;margin-right:7px;color:#a77755}
+.laraya-hero-copy .eyebrow{font-size:9px;letter-spacing:3px}
+.laraya-hero h1{font-size:clamp(54px,5.5vw,84px);line-height:1.12;letter-spacing:-3.5px;font-weight:400;margin:22px 0 26px}
+.laraya-hero h1 em{color:#976a54}
+.laraya-hero p{font-size:13px;line-height:2.1;color:#806c60;margin-bottom:30px}
+.laraya-hero .btn{border-radius:2px;background:#79523f;border-color:#79523f;padding:16px 24px;gap:35px}
+.hero-story-link{display:flex;align-items:center;gap:18px;font-size:9px;color:#896952;margin-top:20px}
+.laraya-shades{display:flex;gap:6px;align-items:center;margin-top:46px}
+.laraya-shades i{width:18px;height:18px;border-radius:50%;border:1px solid #a77b5833;background:#fdf7f4}
+.laraya-shades i:nth-child(2){background:#d4b78f}.laraya-shades i:nth-child(3){background:#e6c7c1}.laraya-shades i:nth-child(4){background:#b7896f}
+.laraya-shades>span{font-family:var(--serif);font-size:14px;font-style:italic;color:#886750;margin-left:8px}
+.laraya-hero-visual{position:relative;min-height:600px;padding:0 0 10px 25px}
+.laraya-photo{position:absolute;inset:0 30px 0 20px;overflow:hidden;border-radius:220px 220px 3px 3px;background:#e5d4c5}
+.laraya-photo>img{width:100%;height:100%;object-fit:cover;object-position:50% 20%}
+.photo-overlay{position:absolute;inset:auto 0 0;padding:70px 25px 28px;background:linear-gradient(transparent,#38271dbb);color:#fff9f3}
+.photo-overlay>span{font-size:7px;letter-spacing:2px}.photo-overlay>strong{display:block;font-family:var(--serif);font-style:italic;font-size:27px;font-weight:400;margin-top:9px}
+.hero-orbit{position:absolute;top:10px;left:-2px;font-size:65px;color:#aa7852;line-height:1}
+.vertical-note{position:absolute;right:0;top:90px;writing-mode:vertical-rl;font-size:7px;letter-spacing:3px;color:#90705c}
+.floating-edit{position:absolute;bottom:35px;left:-60px;background:#fdf7f4;display:flex;box-shadow:0 8px 35px #4c2c2015;border:6px solid #fdf7f4;gap:16px;align-items:center;width:250px;transform:rotate(-4deg)}
+.floating-edit>img{width:85px;height:117px;object-fit:cover}
+.floating-edit>span{font-size:7px;letter-spacing:1.4px;color:#936d52}.floating-edit em{font-family:var(--serif);font-size:17px;line-height:1.2;letter-spacing:0;display:block;max-width:120px;margin:8px 0}.floating-edit svg{margin-top:3px}
+.hero-footnote{position:absolute;bottom:22px;left:6%;right:6%;display:flex;justify-content:space-between;font-size:7px;letter-spacing:2px;color:#907764}
+.hero-footnote a{display:flex;gap:13px;align-items:center;letter-spacing:1px}
+[data-brand=laraya] .brand-ribbon{background:#eaddd1;color:#88684f;border-block-color:#ddc9ba;letter-spacing:2px;font-size:8px;padding-block:17px}
+[data-brand=laraya] .featured-section{background:#f3e9e2}
+[data-brand=laraya] .category-rail img{border-radius:100px 100px 2px 2px}
+[data-brand=laraya] .product-visual{border-radius:2px;background:#eee1d6}
+[data-brand=laraya] .product-badge{background:#fdf7f4;color:#77523d;font-size:7px}
+[data-brand=laraya] .product-image-button img{transition:transform .5s}
+[data-brand=laraya] .product-visual:hover .product-image-button img{transform:scale(1.035)}
+[data-brand=laraya] .catalog-chips button.active{background:#805941;border-color:#805941;color:#fff}
+[data-brand=laraya] .contact-band{background:#795542}
+[data-brand=laraya] .shop-footer{background:#f6eee7}
+[data-brand=laraya] .btn{border-radius:2px}
+[data-brand=laraya] .brand-story-photo{margin-left:0}
+[data-brand=laraya] .brand-story-photo>img{border-radius:220px 220px 2px 2px}
+[data-brand=laraya] .brand-story-photo:before{border-radius:220px 220px 2px 2px}
+[data-brand=laraya] .studio-shell{background:#faf4ef;color:#49362d}
+[data-brand=laraya] .studio-sidebar{background:#4b382d;color:#e2cdbb}
+[data-brand=laraya] .studio-brand{color:#fff7ee}
+[data-brand=laraya] .store-switch{background:#5d4435;border-color:#80624b}
+[data-brand=laraya] .store-avatar{background:#d9b99c;color:#513b2e}
+[data-brand=laraya] .login-page{background:#f3e5dc}
+@media(min-width:1600px){.gallery-hero,.laraya-hero{padding-inline:max(6%,calc((100vw - 1400px)/2))}.gallery-main-photo{height:530px}.gallery-hero-visual{min-height:630px}}
+@media(max-width:1100px){.brand-mark{gap:8px}.gallery-mark strong{font-size:21px}.gallery-mark small{font-size:6px;letter-spacing:1.3px}.gallery-mark>img{width:52px;height:52px}.shop-header nav{gap:20px}.gallery-hero{gap:15px;min-height:650px}.gallery-hero h1{letter-spacing:-3px}.gallery-main-photo{width:75%;height:450px}.gallery-hero-visual{min-height:545px}.gallery-detail-photo{width:41%;top:220px}.gallery-detail-photo>img{height:220px}.gallery-roundel{right:0;top:30px;width:88px;height:88px}.laraya-hero{min-height:650px;gap:0}.laraya-hero-visual{min-height:545px}.laraya-hero h1{font-size:64px}.laraya-photo{inset:0 15px 0 30px}.floating-edit{left:-15px;bottom:25px;width:225px}.brand-story{gap:8%}}
+@media(max-width:700px){.shop-header{height:78px;padding-inline:5%}.gallery-mark>img{width:44px;height:44px}.gallery-mark strong{font-size:22px}.gallery-mark small{font-size:5px;letter-spacing:1.3px}.gallery-mark{gap:7px}.shop-actions{gap:1px}.shop-actions .icon{min-width:32px}.shop-actions .bag-trigger{margin-left:0}.gallery-hero{grid-template-columns:1fr;gap:0;padding:35px 6% 22px;min-height:0}.gallery-hero-copy{padding:0}.hero-label{font-size:7px;letter-spacing:1.5px}.gallery-hero h1{font-size:56px;line-height:1.05;letter-spacing:-2.8px;margin-block:22px}.gallery-hero-copy>p{font-size:12px;max-width:300px;margin-bottom:22px}.hero-ctas{gap:20px}.hero-ctas .btn{font-size:10px;padding:12px 20px;min-height:43px;gap:20px}.hero-text-cta{font-size:10px}.gallery-signoff{margin-top:25px;font-size:9px}.gallery-signoff small{font-size:7px}.little-bloom{font-size:28px}.gallery-hero-visual{min-height:450px;margin-top:12px;margin-left:8px;margin-right:8px}.gallery-main-photo{height:355px;top:28px;width:72%;left:0;border-width:7px}.gallery-detail-photo{top:185px;width:40%;border-width:5px;right:0}.gallery-detail-photo>img{height:175px}.gallery-detail-photo>span{font-size:16px;padding:8px}.gallery-detail-photo em{font-size:17px}.curved-note{font-size:7px;letter-spacing:2px;top:7px}.gallery-roundel{width:75px;height:75px;font-size:6px;letter-spacing:1px;right:0;top:28px;gap:5px}.gallery-roundel svg{width:19px;height:19px}.photo-index{font-size:6px;letter-spacing:1.7px;bottom:12px}.brand-ribbon{font-size:7px;gap:23px;padding-block:13px}.brand-ribbon>span:last-child{display:none}.brand-ribbon svg{width:15px;min-width:15px}.brand-story{grid-template-columns:1fr;padding-block:60px;gap:42px}.brand-story-photo{margin-left:0;margin-right:15px}.brand-story-photo>img{height:415px}.brand-story-copy h2{font-size:41px;letter-spacing:-1.4px;margin-block:20px}.brand-story-copy>p{font-size:11px}.brand-signature{font-size:21px;margin-top:22px}.category-section{padding-block:45px}.section-top h2{font-size:34px}.category-rail{gap:14px}.category-rail>button{min-width:90px}.category-rail .category-image{width:90px;height:110px}.featured-section{padding-block:45px}.laraya-mark{width:110px;height:76px}.laraya-mark>img{width:87px;height:72px}[data-brand=laraya] .shop-header{height:84px}.laraya-hero{grid-template-columns:1fr;min-height:0;padding:32px 6% 48px;gap:30px}.laraya-hero-copy{padding:0}.laraya-hero-copy .eyebrow{font-size:8px;letter-spacing:2px}.laraya-hero h1{font-size:55px;letter-spacing:-2.5px;margin-block:20px}.laraya-hero p{font-size:12px;margin-bottom:24px}.laraya-hero .btn{font-size:10px;padding:13px 19px;min-height:44px}.hero-story-link{font-size:8px;margin-top:17px}.laraya-shades{margin-top:25px}.laraya-shades>span{font-size:13px}.laraya-shades i{width:15px;height:15px}.laraya-hero-visual{min-height:450px;padding:0;margin-left:7px}.laraya-photo{inset:0 16px 0 20px;border-radius:160px 160px 2px 2px}.photo-overlay{padding:70px 20px 22px}.photo-overlay>strong{font-size:23px}.photo-overlay>span{font-size:6px}.floating-edit{left:-10px;bottom:25px;width:207px;border-width:5px;gap:12px}.floating-edit>img{width:72px;height:99px}.floating-edit>span{font-size:6px}.floating-edit em{font-size:15px}.hero-orbit{font-size:48px;left:-7px;top:0}.vertical-note{font-size:6px;letter-spacing:2px;right:0;top:65px}.hero-footnote{bottom:18px;font-size:6px;letter-spacing:1px}.hero-footnote a{font-size:6px;gap:7px}[data-brand=laraya] .brand-ribbon{font-size:6px;letter-spacing:1.3px;padding-block:13px}.laraya-story .brand-story-photo>img{height:450px}.brand-story-copy{min-width:0}}
+@media(max-width:380px){.gallery-mark strong{font-size:18px}.gallery-mark small{letter-spacing:.8px}.gallery-mark>img{width:38px;height:38px}.gallery-hero h1{font-size:51px}.gallery-hero-visual{min-height:400px}.gallery-main-photo{height:320px}.gallery-detail-photo{top:160px}.gallery-detail-photo>img{height:155px}.laraya-hero h1{font-size:49px}.laraya-hero-visual{min-height:400px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
