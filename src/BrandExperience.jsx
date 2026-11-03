@@ -41,8 +41,8 @@ export function BrandHero(){
   </div>
   <div className="gallery-hero-visual">
    <span className="curved-note">THE GALLERYGEULIS EDIT</span>
-   <div className="gallery-main-photo"><Picture src={brand.heroMain} alt="Bow Embroidered Shirt Blouse dalam warna lembut" priority sizes="(max-width:700px) 66vw, 30vw"/></div>
-   <div className="gallery-detail-photo"><Picture src={brand.heroDetail} alt="Detail Embroidered Denim Blouse" priority sizes="(max-width:700px) 32vw, 17vw"/><span>little details,<br/><em>lovely days.</em></span></div>
+   <div className="gallery-main-photo"><Picture src={brand.heroMain} alt={brand.heroMainAlt} priority sizes="(max-width:700px) 66vw, 30vw"/></div>
+   <div className="gallery-detail-photo"><Picture src={brand.heroDetail} alt={brand.heroDetailAlt} priority sizes="(max-width:700px) 32vw, 17vw"/><span>little details,<br/><em>lovely days.</em></span></div>
    <div className="gallery-roundel"><Flower2 size={25}/><span>SOFT LOOKS<br/>HAPPY YOU</span></div>
    <span className="photo-index">01 — YOUR EVERYDAY FAVORITES</span>
   </div>

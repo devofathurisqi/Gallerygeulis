@@ -34,6 +34,8 @@ Dashboard menyediakan ringkasan, CRUD produk/kategori, upload galeri/foto warna,
 
 Soft pink dominan, aksen rose dan berry, motif bunga, foto editorial bertumpuk, dan logo lingkaran asli pengguna. Katalog GalleryGeulis diprioritaskan, dilengkapi hijab Vuyama yang dipilih pemilik.
 
+Revisi 3 November 2026: warna pink utama **#F6B2BD** diambil dari sampel klien dan diterapkan pada navbar, hero toko, kartu sambutan dashboard, serta panel login. Foto depan memakai model **Zoya Instan** dan **Pashmina Bamboo Spandex** dari library Vuyama yang sudah digunakan toko. Foto model utama juga tampil di kartu sambutan dan login dashboard. Detail pemeriksaan: [qa/REVISION-2026-11-03.md](qa/REVISION-2026-11-03.md).
+
 ## Deployment Vercel
 
 Import repository ini, pilih branch produksi **PROD**, root **.**, preset **Vite**, build **npm run build**, output **dist**. Rewrite untuk /admin sudah ada di vercel.json. Konfigurasi publik project bersama tersedia di src/backend-config.js agar deploy awal dapat berjalan. Override opsional: VITE_SUPABASE_URL, VITE_SUPABASE_PUBLISHABLE_KEY, VITE_STORE_SLUG=gallerygeulis. Jangan menaruh secret/service-role key pada variabel VITE.

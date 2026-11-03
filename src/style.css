@@ -33,7 +33,8 @@
   --pink: #b4486b;
   --pink-dark: #933450;
   --berry: #57323e;
-  --rose: #f1c1ce;
+  --brand-pink: #f6b2bd;
+  --rose: var(--brand-pink);
   --pale: #fff3f6;
   --muted: #897079;
   --line: #efdae1;

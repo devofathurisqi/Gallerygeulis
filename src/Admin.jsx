@@ -396,7 +396,7 @@ export default function Admin() {
                 <div className="welcome-art">
                   <Picture
                     src={brand.heroMain}
-                    alt="Koleksi GalleryGeulis"
+                    alt={brand.heroMainAlt}
                     sizes="220px"
                   />
                   <span>
@@ -838,7 +838,7 @@ function Login({ error: initialError }) {
         <div className="login-photo">
           <Picture
             src={brand.heroMain}
-            alt="Koleksi GalleryGeulis"
+            alt={brand.heroMainAlt}
             sizes="400px"
             priority
           />
