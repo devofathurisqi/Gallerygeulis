@@ -2,6 +2,16 @@
 
 Geulis-Glowing-Modis. Katalog dan dashboard mandiri berbasis React 19, Vite, dan Supabase. Branch produksi: **PROD**.
 
+## Upload foto otomatis — 5 November 2026
+
+Dashboard menerima foto asli JPG, PNG, dan WebP tanpa batas ukuran file atau megapiksel yang ditetapkan aplikasi. Klien tidak perlu mengompres manual. Berlaku untuk galeri produk dan foto setiap varian warna; jumlah galeri tetap delapan foto per produk.
+
+Optimasi berada di aplikasi sebelum transfer ke Supabase, menggunakan background worker jika didukung dan jalur native browser sebagai cadangan. Header dibaca terlebih dahulu agar decoder dapat mengecilkan foto besar; orientasi kamera, rasio aspek dan transparansi dipertahankan. Target sisi terpanjang 2.048 px tanpa memperbesar foto kecil. Encoder mencoba kualitas WebP 90/86/82%; jika masih berat, resolusi disesuaikan otomatis dengan tetap memakai sumber decode yang sama. Browser/perangkat tetap harus mampu membaca file aslinya.
+
+Hanya hasil WebP maksimal 1 MiB yang dikirim ke bucket catalog-images, sehingga batas internal Storage tidak menjadi pekerjaan klien. Tidak ada perubahan database/RLS, bucket, data toko, foto lama, atau master Vuyama. Path UUID baru dan cache satu tahun tetap dipakai. Dashboard menampilkan status penyiapan/pengunggahan dan menahan penyimpanan produk sampai upload selesai.
+
+Engine: src/image-metadata.js, src/image-optimizer.js, src/image-worker.js, src/image-upload.js. Integrasi: src/api.js dan src/Admin.jsx. Uji regresi: tests/image-upload.test.mjs. Lihat [verifikasi upload](qa/UPLOAD-2026-11-05.md).
+
 ## Menjalankan
 
 Node.js 22+ diperlukan. Dari root repository:

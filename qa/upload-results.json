@@ -1,0 +1,31 @@
+{
+  "store": "gallerygeulis",
+  "gallerySamples": [
+    {
+      "original": "large-photo.png",
+      "inputBytes": 60099219,
+      "outputBytes": 156966,
+      "width": 2048,
+      "height": 1639,
+      "psnrDb": 44.3
+    },
+    {
+      "original": "rotated-photo.jpg",
+      "inputBytes": 720325,
+      "outputBytes": 135500,
+      "width": 1366,
+      "height": 2048,
+      "psnrDb": 43.83
+    }
+  ],
+  "variantLargeUpload": true,
+  "worker": true,
+  "renderedOptimizedImages": true,
+  "nativeCanvasFallback": false,
+  "noHorizontalOverflow": true,
+  "browserErrors": [],
+  "unitTests": 35,
+  "newUploadRegressions": 11,
+  "productionBuild": "passed",
+  "backend": "Isolated Auth/database/Storage stubs; no production writes"
+}

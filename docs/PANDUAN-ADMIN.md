@@ -10,3 +10,7 @@
 8. Menu Aktivitas mencatat perubahan. Jangan gunakan akun toko lain.
 
 Foto upload disimpan di folder tenant sendiri; master Vuyama tidak dapat diubah/hapus oleh akun toko. Preview /admin?preview=1 hanya untuk demonstrasi dan tidak menyimpan ke server.
+
+## Upload foto
+
+Langsung pilih foto asli JPG, PNG, atau WebP untuk galeri maupun foto warna. Tidak perlu kompres manual dan tidak ada batas ukuran file yang ditetapkan aplikasi. Website mengoptimalkan foto otomatis sambil menjaga detail, orientasi, dan transparansi. Tunggu status penyiapan/pengunggahan selesai sebelum menyimpan produk. Maksimal delapan foto galeri per produk.
