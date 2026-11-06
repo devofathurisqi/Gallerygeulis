@@ -2,6 +2,14 @@
 
 Geulis-Glowing-Modis. Katalog dan dashboard mandiri berbasis React 19, Vite, dan Supabase. Branch produksi: **PROD**.
 
+## Kompatibilitas upload Safari/iPhone - 6 November 2026
+
+Encoder WebP native tidak selalu tersedia walau browser dapat menampilkan WebP. Jika canvas menghasilkan PNG/null atau melempar error, aplikasi kini memuat encoder libwebp WebAssembly dari asset deployment sendiri, lalu melanjutkan optimasi otomatis. Tidak meminta pengguna mengganti browser. Codec cadangan memakai build non-SIMD satu thread tanpa SharedArrayBuffer/COOP/COEP dan hanya dimuat saat diperlukan. Worker dibangun sebagai ES module agar chunk codec lazy dapat dimuat.
+
+Target output 950.000 byte, aman di bawah 1 MB desimal dan bucket 1 MiB; input tetap tanpa batas byte/megapiksel aplikasi. Kualitas 90/86/82, orientasi dan alpha dipertahankan. Tidak ada perubahan database, bucket, tenant atau format URL foto. API tetap mengirim WebP asli ke folder toko. Notice dependency tersedia pada public/legal.
+
+Validasi: 39 unit test dan production build lulus. Engine yang identik diverifikasi melalui Chrome desktop/Android, WebKit mobile, jalur HTML Image tanpa Worker/OffscreenCanvas/createImageBitmap, native PNG/encoder exception, WASM build produksi, foto asli klien, foto 60 MB/80 MP, alpha, penyesuaian resolusi dan retry setelah download WASM gagal. WebKit berjalan pada Windows; kondisi encoder PNG dipaksakan untuk menguji fallback iPhone. Ini bukan klaim pengujian iPhone fisik. Rincian: [qa/UPLOAD-SAFARI-2026-11-06.md](qa/UPLOAD-SAFARI-2026-11-06.md).
+
 ## Upload foto otomatis — 5 November 2026
 
 Dashboard menerima foto asli JPG, PNG, dan WebP tanpa batas ukuran file atau megapiksel yang ditetapkan aplikasi. Klien tidak perlu mengompres manual. Berlaku untuk galeri produk dan foto setiap varian warna; jumlah galeri tetap delapan foto per produk.
